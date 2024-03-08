@@ -59,7 +59,8 @@ Task | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | Avg.
 :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: 
 G2B(DER)| **94.6** | **87.75** | **82.23** | **77.88** | **76.8** | **75.55** | **74.68** | **73.24** | **71.03** | **68.98** |**78.26**
 G2B(DyTox)| **90.9** | **88.25** | **83.67** | **79.22** | **77.74** | **71.3** | **69.17** | **65.45** | **63.49** | **62.04** | **75.12**
-Note: Different pytorch versions may lead to slightly different results. (pytorch ver. >= 1.8.1 required)
+
+Note: Different pytorch versions may lead to slightly different results. (pytorch ver. >= 1.8.1 required).
 
 ## Citation
 If you find this code useful, please kindly cite the following paper:
