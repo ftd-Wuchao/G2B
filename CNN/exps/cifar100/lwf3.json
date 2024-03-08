@@ -1,0 +1,16 @@
+{
+    "prefix": "reproduce",
+    "dataset": "cifar100",
+    "memory_size": 2000,
+    "memory_per_class": 20,
+    "fixed_memory": false,
+    "shuffle": true,
+    "init_cls": 2,
+    "increment": 2,
+    "model_name": "lwf",
+    "convnet_type": "cifar_attention_resnet18",
+    "device": ["0"],
+    "seed": [1993],
+    "ssl_train": false,
+    "extra_log_name": ""
+}

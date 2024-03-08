@@ -1,0 +1,20 @@
+{
+    "prefix": "reproduce",
+    "dataset": "cifar100",
+    "memory_size": 2000,
+    "memory_per_class": 20,
+    "fixed_memory": false,
+    "shuffle": true,
+    "init_cls": 10,
+    "increment": 10,
+    "model_name": "ssl_ce",
+    "convnet_type": "cifar_resnet18",
+    "device": ["4"],
+    "seed": [1993],
+
+    "ssl_loss": "BYOL",
+
+    "ssl_train": true,
+
+    "extra_log_name": "_lwf"
+}

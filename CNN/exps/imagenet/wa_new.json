@@ -1,0 +1,18 @@
+{
+    "prefix": "reproduce",
+    "dataset": "imagenet1000",
+    "memory_size": 2000,
+    "memory_per_class": 20,
+    "fixed_memory": false,
+    "shuffle": false,
+    "init_cls": 100,
+    "increment": 100,
+    "model_name": "wa",
+    "convnet_type": "attention_resnet18",
+    "device": ["0","1"],
+    "seed": [1993],
+
+    "ssl_train": false,
+
+    "extra_log_name": ""
+}

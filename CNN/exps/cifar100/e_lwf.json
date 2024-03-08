@@ -1,0 +1,21 @@
+{
+    "prefix": "reproduce",
+    "dataset": "cifar100",
+    "memory_size": 2000,
+    "memory_per_class": 20,
+    "fixed_memory": false,
+    "shuffle": true,
+    "init_cls": 10,
+    "increment": 10,
+    "model_name": "e_lwf",
+    "convnet_type": "resnet18",
+    "device": ["1"],
+    "seed": [1993],
+
+    "USE_GMS": false,
+    "ratio": 0.05,
+    "mode": "global_block",
+    "update_ratio": "linear",
+
+    "extra_log_name": "_ce_ASAM_realp"
+}

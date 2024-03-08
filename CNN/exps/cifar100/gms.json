@@ -1,0 +1,16 @@
+{
+    "prefix": "reproduce",
+    "dataset": "cifar100",
+    "memory_size": 2000,
+    "memory_per_class": 20,
+    "fixed_memory": false,
+    "shuffle": true,
+    "init_cls": 10,
+    "increment": 10,
+    "model_name": "gms",
+    "ratio": 0.8,
+    "mode": "global_",
+    "convnet_type": "resnet18",
+    "device": ["7"],
+    "seed": [1993]
+}
